@@ -181,7 +181,7 @@ $.fn.stick_in_parent = (opts={}) ->
                   }
 
         else
-          # fixing
+# fixing
           if scroll > top
             fixed = true
             css = {
@@ -211,7 +211,7 @@ $.fn.stick_in_parent = (opts={}) ->
 
           # bottomed
           if !bottomed && will_bottom
-            # bottomed out
+# bottomed out
             bottomed = true
             if parent.css("position") == "static"
               parent.css {
@@ -265,5 +265,3 @@ $.fn.stick_in_parent = (opts={}) ->
 
     ) $ elm
   @
-
-
